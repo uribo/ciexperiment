@@ -1,0 +1,6 @@
+^LICENSE\.md$
+^\.env$
+^Dockerfile$
+^docker-compose\.yml$
+^ciexperiment\.Rproj$
+^\.Rproj\.user$
