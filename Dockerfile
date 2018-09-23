@@ -16,4 +16,6 @@ RUN set -x && \
     roxygen2 \
     testthat \
     usethis && \
+  installGithub.r \
+    "ropenscilabs/travis" && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
