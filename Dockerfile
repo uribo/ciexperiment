@@ -13,4 +13,5 @@ RUN set -x && \
     devtools \
     roxygen2 \
     testthat \
-    usethis
+    usethis && \
+  rm -rf /tmp/downloaded_packages/ /tmp/*.rds
