@@ -13,6 +13,7 @@ RUN set -x && \
     rcmdcheck \
     devtools \
     pkgdown \
+    remotes \
     roxygen2 \
     testthat \
     usethis && \
