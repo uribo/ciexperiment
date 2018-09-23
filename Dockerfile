@@ -10,7 +10,9 @@ RUN set -x && \
 
 RUN set -x && \
   install2.r --error \
+    rcmdcheck \
     devtools \
+    pkgdown \
     roxygen2 \
     testthat \
     usethis && \

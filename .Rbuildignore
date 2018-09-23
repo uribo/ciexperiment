@@ -1,3 +1,6 @@
+^\.env$
+^\.lintr$
+^tic\.R$
 ^docs$
 ^_pkgdown\.yml$
 ^appveyor\.yml$
